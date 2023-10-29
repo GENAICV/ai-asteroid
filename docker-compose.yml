@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    build: ./projects/ .
+    build: ./project/ .
     ports:
       - "5001:5000"
